@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+        .menubar{
+         background-color:violet;
+         border-radius: 10px;
+        }
+        .menubar > ul li{
+            list-style: none;
+            display:inline-block;
+            padding:20px 5px;
+        }
+        .menubar ul li a{
+            text-decoration: none;
+            color:white;
+            margin:0px 20px;
+        }
+
+        .table{
+            font-family:'PT Sans',sans-serif;
+            margin:auto;
+            margin-top: 50px;
+            text-align: center;     
+            width:80%;
+            border-collapse: collapse;
+            overflow:hidden;
+            border-radius: 15px;
+    
+        }
+        .table thead{
+            border-radius: 10px 10px 0 0;
+            
+            color:white;
+            border-radius: 10px;
+            background-color: violet;
+        }
+        .table thead th{
+            padding:20px 5px;
+        }
+        .table tbody td{
+            padding:20px 5px;
+            color:gray;
+        }
+        .table tbody tr{
+            border-right: 1px solid #eee;
+            border-left: 1px solid #eee;
+            
+        }
+        .table tbody tr:nth-child(2n){
+            background-color:rgb(218, 215, 210);
+            
+        }
+        .table tbody tr:last-child{
+            border-bottom:1px solid #eee;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="menubar">
+        <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Help</a>
+            </li>
+        </ul>
+    </header>
+
+    <table class="table">
+        <thead class="tableh">
+          <tr>
+              <th>Class</th>
+             <th>Task Name</th>
+              <th>Date</th>
+              <th>Link</th>
+          </tr>
+        </thead>
+
+        <tbody>
+           <tr>
+               <td>1</td>
+               <td>Table</td>
+               <td>20-04-2021</td>
+               <td><a href="task2.html">see</a></td>
+           </tr>
+
+           <tr>
+            <td>Practice 1</td>
+            <td>tables and styles </td>
+            <td>21-04-2021</td>
+            <td><a href="../Mine/tablesandstyles1.html">see</a></td>
+        </tr>
+           <tr>
+            <td>2</td>
+            <td>Image Gallery</td>
+            <td>22-04-2021</td>
+            <td><a href="../Mine/imagegallery1.html">see</a></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Audio Gallery</td>
+            <td>22-04-2021</td>
+            <td><a href="../Mine/Audiogallery1.html">see</a></td>
+            </tr>
+        <tr>
+            <td>2</td>
+            <td>Video Gallery </td>
+            <td>22-04-2021</td>
+            <td><a href="../Mine/videogallery1.html">see</a></td>
+        </tr>
+        
+        
+        </tbody>
+    </table>
+</body>
+</html>
