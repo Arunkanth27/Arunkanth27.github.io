@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient</title>
+</head>
+<style>
+    .great-grand-father {
+        
+        padding: 20px;
+        margin: 20px;
+    }
+    .grand-father{
+            margin-left:50px;
+            padding-top:20px;
+            border-left:2px solid blue;
+    }
+    .grand-father div{
+            margin-left:50px;
+            padding-top:20px;
+            border-left:2px solid violet;
+        }
+
+        .grand-father div  div{
+            margin-left:50px;
+            padding-top:20px;
+            border-left:2px solid blue;
+        }
+        .father::before{   
+            content:"----Father";
+        }
+        .uncle::before{
+            content: "----Uncle";
+        }
+        .aunt::before{   
+            content:"----Aunt";
+        }
+        .great-grand-father::before{
+        content:"Great Grand Father";
+       }
+       .great-grand-father:hover .grand-father::before{
+        content:"----Grand Father";
+          }
+      .grand-father,.grand-father div,.grand-father div div{
+        visibility: hidden;
+      }
+
+      .great-grand-father:hover .grand-father , .grand-father:hover .father ,.grand-father:hover .uncle , .grand-father:hover .aunt {
+          visibility: visible;
+      }
+      .father:hover div,.uncle:hover div,.aunt:hover div{
+        visibility: visible;
+    }
+      h1,p{
+          text-align: center;
+          color:skyblue;
+      }
+ </style>
+
+<body>
+    <h1>Ancient Tree</h1>
+    <p>Hover on Great Grand Father to see the Magic</p>
+    <div class="great-grand-father">
+        <div class="grand-father">
+            <div class="father">
+                <div>---Brother</div>
+                <div>---Sister</div>
+            </div>
+            <div class="uncle">
+                <div>---Cousin1</div>
+                <div>---Cousin2</div>
+               
+            </div>
+        </div>
+
+        <div class="grand-father">
+            <div class="uncle">
+                <div>---Cousin3</div>
+                <div>---Cousin4</div>
+                <div>---Cousin5</div>
+            </div>
+        </div>
+
+        <div class="grand-father">
+            <div class="aunt">
+                <div>---Cousin6</div>
+                <div>---Cousin7</div>
+                <div>---Cousin8</div>
+                <div>---Cousin9</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
