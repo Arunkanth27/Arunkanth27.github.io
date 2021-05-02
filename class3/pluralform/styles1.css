@@ -1,0 +1,128 @@
+.logo {
+    margin-top: 50px;
+}
+
+.logo img {
+    height: 15vh;
+    width: 500px;
+}
+label{
+    font-family: 'Baloo 2', cursive;
+}
+body{
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+    overflow: hidden;
+    margin:0;
+    padding: 0;
+}
+#wrapper{
+    display:flex;
+    flex-direction: row;
+}
+
+#left{
+    background-color:rgb(18, 18, 20);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    /* justify-content:center; */
+    height:100vh;
+    width:40%;
+    flex:auto;
+
+}
+#right{
+    flex: auto;
+    width: 60%;
+}
+#left .login-form{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width:75%;
+    
+}
+
+.form label{
+    line-height: 2;
+    font-size:20px;
+    font-weight: 500;
+
+}
+
+.form .text-input{
+    margin-bottom:1.3rem;
+    width:100%;
+    height:35px;
+    background-color:rgb(18, 18, 20);
+    border:1px solid gray;
+  }
+  .btn{
+    margin-top: 15px;
+    width: 100%;
+    height:40px;
+    font-size:15px;
+    font-weight:400;
+}
+
+.btn-primary{
+    background-color:#0074ab;
+    color:white;
+    border:1px solid #0074ab;
+    border-radius: 3px;
+    transition:all 0.5s;
+    
+}
+
+.btn-primary:hover{
+    background-color:black;
+}
+.btn-info:hover{
+    color:white;
+    background-color: gray;
+}
+a{
+    color:#0074ab;
+    font-weight: 500;
+    text-decoration:none;
+    text-align: center;
+    width:100%;
+    display: block;
+    margin-top:15px;
+   
+}
+.showcase{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    height:100vh;
+    background-image: url(login-bg.jpg);
+  
+}
+
+.showcase .heading{
+    font-size:60px;
+    
+    width:60%;
+    text-align:left;
+}
+
+.show{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+.btn-smart{
+    width:30%;
+    color:white;
+    background: linear-gradient(to right,#F05A28,#EC008C,#F05A28);
+    border-radius: 2px;
+    transition: 0.3s all;
+    border:none;
+    cursor:pointer;
+}
