@@ -40,8 +40,7 @@ body,html{
      margin:10px 0 10px  25px;   
     
     grid-template-rows: 18% 18% 18% 18% 18% ;
-    grid-template-columns: 25% 25% 25% 25% ;
-    
+    grid-template-columns: repeat(4, 25% [col-start]);
 }
 .items{
     
