@@ -1,0 +1,23 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding:20px 0;
+    background-color:rgb(6, 82, 78);
+    height:auto;
+    text-align:center;
+}
+p{
+    padding-top: 20px;
+    color:white;
+    font-weight: 600;
+    font-size:30px;
+}
+
+#joke{
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    padding: 10px 20px;
+}
