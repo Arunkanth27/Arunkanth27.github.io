@@ -1,20 +1,10 @@
-body,html{
-    margin: 0;
-    padding: 0;
-    font-family: 'Baloo 2', cursive;
 
-}
-
-
-.wrapper{
-    background-color: #fff;
-}
 .content{
     
     
     border:2px solid goldenrod;
     border-radius:5px;
-    width:325px;
+    width:400px;
     height:450px;
     margin-left:500px;
     margin-top: 100px;
@@ -39,7 +29,7 @@ body,html{
     display:grid;
      margin:10px 0 10px  25px;   
     
-    grid-template-rows: 18% 18% 18% 18% 18% ;
+    grid-template-rows: 20% 20% 20% 20% 20% ;
     grid-template-columns: repeat(4, 25% [col-start]);
 }
 .items{
@@ -49,8 +39,9 @@ body,html{
     border-radius: 5px;
     margin:5px;
     text-align:center;
+    width: 70px;
 
-    box-shadow:0 2px 3px 0 rgba(0,0,0,0.54);
+    box-shadow:0 2px 3px 0 rgba(196, 193, 193, 0.54);
 }
 #item1{
     background-color:rgb(138, 136, 66);
